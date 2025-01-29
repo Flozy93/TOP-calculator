@@ -33,22 +33,34 @@ body {
 }
 
 #screen {
-  height: 75px;
+  height: 85px;
   margin: 10px;
   background-color: lightgray;
   border: 3px;
   border-color: black;
   border-style: solid;
+  font-size: 200%;
+  /* font-weight: 500; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .button {
   display: flex;
   flex: 1 0 calc(25% - 5px);
-  aspect-ratio: 1 / 1; /* Maintain square aspect ratio */
-  border: 1px solid black; /* Add border for visibility */
+  aspect-ratio: 1 / 1;
+  /* border: 1px solid black; */
   align-items: center;
   justify-content: center;
-  font-size: x-large;
+}
+
+button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* font-weight: bold; */
+  font-size: medium;
 }
 
 #grid {
@@ -64,4 +76,12 @@ body {
 
 #footer {
   height: 50px;
+}
+
+.blue {
+  background-color: #6699cc;
+}
+
+.orange {
+  background-color: #ff9966;
 }
